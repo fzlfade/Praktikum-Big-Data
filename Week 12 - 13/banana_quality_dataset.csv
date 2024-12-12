@@ -1,6 +1,7 @@
 sample_id,variety,region,quality_score,quality_category,ripeness_index,ripeness_category,sugar_content_brix,firmness_kgf,length_cm,weight_g,harvest_date,tree_age_years,altitude_m,rainfall_mm,soil_nitrogen_ppm
 1,Manzano,Colombia,1.88,Processing,2.11,Turning,16.83,3.53,21.44,146.92,2023-10-16,13.7,58.2,2440.5,183.6
 2,Plantain,Guatemala,2.42,Processing,4.25,Ripe,16.73,4.09,26.11,160.48,2023-10-14,5.1,280.2,2374.6,109.8
+2,Plantain,Guatemala,2.42,Processing,4.25,Ripe,16.73,4.09,26.11,160.48,2023-10-14,5.1,280.2,2374.6,109.8
 3,Burro,Ecuador,3.57,Premium,6.24,Overripe,21.34,1.63,25.2,225.27,2023-09-08,17.7,1246.9,1191.5,147.7
 4,Manzano,Ecuador,2.21,Processing,5.39,Ripe,16.75,3.31,13.08,137.8,2023-10-07,13.0,1150.2,2845.1,92.8
 5,Red Dacca,Ecuador,2.35,Processing,5.84,Ripe,16.9,3.07,12.98,227.84,2023-10-02,4.8,526.0,2136.9,129.7
@@ -20,14 +21,14 @@ sample_id,variety,region,quality_score,quality_category,ripeness_index,ripeness_
 19,Fehi,Honduras,2.19,Processing,6.49,Overripe,15.15,0.81,15.95,175.16,2023-09-10,11.8,534.6,1912.7,17.4
 20,Red Dacca,Costa Rica,1.85,Processing,1.2,Green,19.65,4.03,14.6,225.85,2023-09-16,3.6,1121.5,2788.2,135.2
 21,Blue Java,Guatemala,3.09,Good,5.18,Ripe,21.74,1.79,18.23,193.38,2023-09-29,9.5,826.0,1995.7,61.8
-22,Burro,Ecuador,2.2,Processing,2.78,Turning,18.92,2.45,14.81,154.02,2023-09-17,17.4,1225.2,2683.6,175.6
+22,Burro,,2.2,Processing,2.78,Turning,18.92,2.45,14.81,154.02,2023-09-17,17.4,1225.2,2683.6,175.6
 23,Lady Finger,Philippines,3.54,Premium,6.55,Overripe,21.56,3.58,23.45,242.03,2023-10-24,17.4,1439.4,2602.7,102.1
 24,Fehi,Philippines,2.84,Good,6.83,Overripe,15.37,2.0,26.52,202.27,2023-09-28,3.8,1189.0,1821.0,68.1
 25,Plantain,Honduras,2.99,Good,6.67,Overripe,17.93,0.75,23.46,238.13,2023-10-27,3.6,905.7,1460.2,108.4
-26,Blue Java,Colombia,2.5,Processing,3.85,Turning,16.82,2.18,26.49,169.69,2023-09-04,6.7,740.0,1812.2,82.6
+26,Blue Java,Colombia,2.5,Processing,3.85,Turning,16.82,2.18,26.49,169.69,2023-09-04,6.7,,1812.2,82.6
 27,Blue Java,Philippines,2.98,Good,6.17,Overripe,20.12,4.75,17.94,124.01,2023-09-03,17.7,60.1,2652.4,117.2
 28,Lady Finger,India,3.05,Good,6.07,Overripe,21.87,3.39,13.13,88.98,2023-09-04,4.3,1476.5,1455.3,31.8
-29,Fehi,Costa Rica,2.17,Processing,2.91,Turning,16.8,3.52,24.76,203.43,2023-09-03,15.0,575.2,2048.9,199.4
+29,Fehi,Costa Rica,2.17,Processing,2.91,Turning,16.8,3.52,24.76,203.43,2023-09-03,15.0,575.2,,199.4
 30,Plantain,Costa Rica,2.96,Good,5.97,Ripe,19.58,3.35,17.21,100.62,2023-09-11,3.8,228.3,2612.2,90.9
 31,Burro,Guatemala,1.7,Processing,1.22,Green,16.39,1.4,23.43,131.47,2023-10-24,13.2,1000.1,1707.0,76.2
 32,Cavendish,Honduras,2.58,Good,4.58,Ripe,18.96,2.38,15.41,170.52,2023-10-13,8.4,426.4,2284.4,144.9
@@ -38,6 +39,7 @@ sample_id,variety,region,quality_score,quality_category,ripeness_index,ripeness_
 37,Plantain,Honduras,2.32,Processing,3.04,Turning,15.8,2.44,29.55,184.92,2023-09-02,14.8,397.5,1542.8,30.4
 38,Cavendish,Guatemala,2.44,Processing,5.35,Ripe,16.06,4.91,25.88,244.87,2023-09-26,17.7,672.9,2710.2,170.8
 39,Cavendish,Ecuador,1.7,Processing,1.39,Green,16.58,0.8,23.19,203.7,2023-10-30,4.3,806.5,1692.9,149.8
+29,Fehi,Costa Rica,2.17,Processing,2.91,Turning,16.8,3.52,24.76,203.43,2023-09-03,15.0,575.2,,199.4
 40,Red Dacca,India,2.1,Processing,2.89,Turning,16.76,2.83,21.56,236.84,2023-10-08,17.6,995.4,2946.1,50.2
 41,Red Dacca,Costa Rica,3.21,Good,4.24,Ripe,20.95,1.31,27.32,209.58,2023-10-13,12.7,1176.0,2959.5,37.6
 42,Manzano,Philippines,2.6,Good,5.74,Ripe,18.93,4.87,15.79,180.59,2023-10-23,4.3,592.2,1536.6,70.1
